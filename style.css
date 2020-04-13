@@ -1,0 +1,143 @@
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #E8EAF6 !important;
+    min-height: 100vh;
+}
+
+.main2 {
+    min-height: 100%;
+    align-self: flex-start;
+    padding: 0 !important;
+}
+
+.main3 {
+    height: 150vw;
+    align-self: flex-end;
+    overflow-y: auto;
+}
+
+.poster {
+    height: 80vw;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+img {
+    height: 80vw;
+    border-radius: 10px !important;
+}
+
+#slider {
+    box-shadow: black 10px 5px 10px !important;
+    width: 55vw;
+}
+
+.spinner {
+    display: none;
+    align-self: center;
+    position: absolute;
+}
+
+#form-movie {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 70% !important;
+}
+
+button {
+    display: inline !important;
+    background-color: #3F51B5 !important;
+    border: none !important;
+    color: #C5CAE9 !important;
+}
+
+.detalles {
+    font-size: smaller;
+}
+
+table {
+    color: #C5CAE9 !important;
+    background-color: #3949AB !important;
+    box-shadow: #323232 5px 10px 5px;
+}
+
+h2 {
+    font-size: medium !important;
+    text-align: center;
+}
+
+#carousel a {
+    display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+    body {
+        background-color: black !important;
+    }
+
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+        background-image: url("background.jpg");
+        min-height: 99vh;
+    }
+
+    .main2 {
+        min-height: 100%;
+        align-self: flex-start;
+    }
+
+    .main3 {
+        height: 40vw;
+        display: flex;
+        align-self: flex-end;
+        overflow-y: unset;
+    }
+
+    .poster {
+        height: 30vw;
+        justify-content: center;
+        align-self: center;
+        margin-bottom: 5px;
+    }
+
+    img {
+        height: 30vw;
+    }
+
+    #slider {
+        width: 20vw;
+    }
+
+    #form-movie {
+        width: 100% !important;
+    }
+
+    .form-menu {
+        justify-content: center;
+    }
+
+    input {
+        width: 80% !important;
+    }
+
+    .detalles {
+        align-self: center;
+    }
+
+    h2 {
+        font-size: xx-large !important;
+    }
+
+    h1 {
+        font-size: xx-large !important;
+    }
+}
